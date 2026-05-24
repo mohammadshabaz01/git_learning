@@ -1,0 +1,20 @@
+add command just take the files in staging area
+git add file1.txt
+git add file1.txt file2.txt 
+git add .
+
+we can remove any file from staging area at any point of time
+git restore --staged .
+or git reset
+
+we can also do decide to let git not to track any specific file 
+git rm --cached <file>
+Removes the file from Git tracking/index.
+Keeps the actual file on your computer.
+Often used when you want Git to stop tracking a file.
+
+but this is dangerous because git rm file.txt
+then Git removes:
+
+the tracked file
+and deletes it from your computer too.
