@@ -129,4 +129,9 @@ git remote add origin
 add an upstream 
 git push -u origin main
 
-Testing
+stays up to date with the new main
+git fetch origin
+git checkout main
+git pull origin main
+git checkout feature1
+git merge main
