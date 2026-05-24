@@ -111,3 +111,5 @@ git stash apply stash@{1}
 
 git stash drop stash@{0}
 git stash clear
+git stash pop
+git stash apply stash@{0} anotherbranch
