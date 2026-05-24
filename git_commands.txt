@@ -23,3 +23,7 @@ git commit -m "commit message"
 
 git log
 
+git --log
+Always do atomic commit{commit every unitof work}
+
+git has default vim code editor
