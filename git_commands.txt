@@ -26,4 +26,18 @@ git log
 git --log
 Always do atomic commit{commit every unitof work}
 
-git has default vim code editor
+git has default vim code editor althrough we can chnage it 
+
+.gitignore conatines path of those files which i dont want to be traked by git
+
+empty folder can be tracked by git by putting them .gitkeep file int it
+
+
+git branch
+git branch work
+git switch work
+git switch -c Temp // will create and switch to thatbranch if not exist
+git checkout NewBranhc only swithc if this exits
+
+git checkout main
+git merge work
