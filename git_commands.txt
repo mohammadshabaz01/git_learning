@@ -41,3 +41,6 @@ git checkout NewBranhc only swithc if this exits
 
 git checkout main
 git merge work
+
+git branhc -m master main
+git branch -d work
