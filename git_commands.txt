@@ -116,3 +116,15 @@ git stash apply stash@{0} anotherbranch
 
 in other branches 
 git rebase main
+
+reflog and reset 
+
+generate ssh key read github official doc
+
+creat a repo on github
+
+git remote -v
+copy the https address of the repo
+git remote add origin
+add an upstream 
+git push add -u origin main
