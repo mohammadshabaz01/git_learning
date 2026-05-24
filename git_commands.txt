@@ -18,3 +18,8 @@ then Git removes:
 
 the tracked file
 and deletes it from your computer too.
+
+git commit -m "commit message"
+
+git log
+
