@@ -8,7 +8,8 @@ git restore --staged .
 or git reset
 
 we can also do decide to let git not to track any specific file 
-git rm --cached <file>
+git rm --cached <file> bring the file from the staging area back to local and not only stop traking the file from the git traking index but delte from system
+git rm -r --cached <file>   it will not delete from local system
 Removes the file from Git tracking/index.
 Keeps the actual file on your computer.
 Often used when you want Git to stop tracking a file.
